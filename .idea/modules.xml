@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/KTOnline.iml" filepath="$PROJECT_DIR$/.idea/KTOnline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ketai-commonservice-eureka/ketai-commonservice-eureka.iml" filepath="$PROJECT_DIR$/ketai-commonservice-eureka/ketai-commonservice-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ketai-excel-poi/ketai-excel-poi.iml" filepath="$PROJECT_DIR$/ketai-excel-poi/ketai-excel-poi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ketai-framework-common/ketai-framework-common.iml" filepath="$PROJECT_DIR$/ketai-framework-common/ketai-framework-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ketai-framework-parent/ketai-framework-parent.iml" filepath="$PROJECT_DIR$/ketai-framework-parent/ketai-framework-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ketai-microservice-edu/ketai-microservice-edu.iml" filepath="$PROJECT_DIR$/ketai-microservice-edu/ketai-microservice-edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ketai-microservice-oss/ketai-microservice-oss.iml" filepath="$PROJECT_DIR$/ketai-microservice-oss/ketai-microservice-oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ketai-microservice-statistics/ketai-microservice-statistics.iml" filepath="$PROJECT_DIR$/ketai-microservice-statistics/ketai-microservice-statistics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ketai-microservice-ucenter/ketai-microservice-ucenter.iml" filepath="$PROJECT_DIR$/ketai-microservice-ucenter/ketai-microservice-ucenter.iml" />
+    </modules>
+  </component>
+</project>

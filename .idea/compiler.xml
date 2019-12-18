@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ketai-microservice-ucenter" />
+        <module name="ketai-excel-poi" />
+        <module name="ketai-microservice-oss" />
+        <module name="ketai-framework-common" />
+        <module name="ketai-microservice-statistics" />
+        <module name="ketai-commonservice-eureka" />
+        <module name="ketai-microservice-edu" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ketai-commonservice-eureka" target="1.8" />
+      <module name="ketai-excel-poi" target="1.8" />
+      <module name="ketai-framework-common" target="1.8" />
+      <module name="ketai-framework-parent" target="1.8" />
+      <module name="ketai-microservice-edu" target="1.8" />
+      <module name="ketai-microservice-oss" target="1.8" />
+      <module name="ketai-microservice-statistics" target="1.8" />
+      <module name="ketai-microservice-ucenter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ketai-commonservice-eureka" options="-parameters" />
+      <module name="ketai-excel-poi" options="-parameters" />
+      <module name="ketai-framework-common" options="-parameters" />
+      <module name="ketai-microservice-edu" options="-parameters" />
+      <module name="ketai-microservice-oss" options="-parameters" />
+      <module name="ketai-microservice-statistics" options="-parameters" />
+      <module name="ketai-microservice-ucenter" options="-parameters" />
+    </option>
+  </component>
+</project>

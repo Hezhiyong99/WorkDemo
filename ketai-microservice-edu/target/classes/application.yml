@@ -1,0 +1,58 @@
+server:
+  port: 8110
+spring:
+  devtools:
+    restart:
+      enabled: true
+  application:
+    name: kt-edu
+  profiles:
+    active: dev
+  datasource:
+    username: root
+    password: hzy
+    url: jdbc:mysql://121.199.47.53:3306/kt_edu?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # Hikari是Spring Boot 2.0之后默认整合的数据库连接池，比druid更快的数据库连接池
+    # 改Druid
+    # 数据源类型
+    initialization-mode: always
+    type: com.alibaba.druid.pool.DruidDataSource
+    # 连接池名称，默认HikariPool‐1
+    hikari:
+      pool-name: GuliHikariPool
+      # 最大连接数，小于等于0会被重置为默认值10；大于零小于1会被重置为minimum‐idle的值
+      maximum-pool-size: 12
+      # 连接超时时间:毫秒，小于250毫秒，否则被重置为默认值30秒
+      connection-timeout: 60000
+      # 最小空闲连接，默认值10，小于0或大于maximum‐pool‐size，都会重置为maximum‐pool‐size
+      minimum-idle: 10
+      # 只有空闲连接数大于最大连接数且空闲时间超过该值，才会被释放
+      idle‐timeout: 500000
+      # 连接最大存活时间.不等于0且小于30秒，会被重置为默认值30分钟.设置应该比mysql设置的超时时间短
+      max‐lifetime: 540000
+      #连接测试查询
+      connection‐test‐query: SELECT 1
+  mvc:
+    date-format: "yyyy-MM-dd"
+#设置日志级别
+#logging:
+#  level:
+#    root: warn
+#showSql
+mybatis‐plus:
+  mapper-locations: classpath*:com/ketai/edu/mapper/xml/*.xml
+  configuration:
+    log‐impl=org:
+      apache:
+        ibatis:
+          logging:
+            stdout:
+              StdOutImpl: org.apache.ibatis.logging.stdout.StdOutImpl
+#指定注册中心地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8220/eureka/#eureka,http://localhost:8201/eureka/#eureka,http://localhost:8202/eureka/#eureka
+  instance:
+    prefer-ip-address: true #服务器上获取的是服务器的ip地址，否则是主机名

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ketai.edu.mapper.SubjectMapper">
+    <select id="getOne" resultType="com.ketai.edu.pojo.Subject">
+        SELECT DISTINCT s.* from edu_subject e
+        JOIN edu_subject AS s
+        ON e.parent_id = s.id
+        </select>
+
+    <select id="getTwo" resultType="com.ketai.edu.pojo.Subject">
+        select * from edu_subject
+		 where parent_id=#{parent_id}
+    </select>
+</mapper>

@@ -1,0 +1,18 @@
+#服务端口
+server:
+  port: 8120
+#服务名
+spring:
+  application:
+    name: ketai-aliyunoss
+  #环境变量：dev、test、prod
+  profiles:
+    active: dev
+aliyun:
+  oss:
+    file:
+      endpoint: oss-cn-beijing.aliyuncs.com
+      keyid: LTAI4FcATvLx8Vr9TquoBSrw
+      keysecret: VZBjP54OrkFNTePZCn8a401nKlIju8
+      bucketname: ketai-file-zly
+      filehost: avatar

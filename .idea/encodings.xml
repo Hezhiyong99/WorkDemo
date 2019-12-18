@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ketai-commonservice-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ketai-excel-poi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ketai-framework-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ketai-framework-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ketai-microservice-edu" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ketai-microservice-oss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ketai-microservice-statistics" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ketai-microservice-ucenter" charset="UTF-8" />
+  </component>
+</project>
