@@ -7,8 +7,6 @@ spring:
     name: ketai-vod
     # ª∑æ≥…Ë÷√£∫dev°¢test°¢prod
   profiles:
-
-
     active: dev
   servlet:
     multipart:
