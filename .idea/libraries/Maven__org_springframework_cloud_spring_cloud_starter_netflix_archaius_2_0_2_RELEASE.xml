@@ -2,6 +2,7 @@
   <library name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-archaius:2.0.2.RELEASE">
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.0.2.RELEASE/spring-cloud-starter-netflix-archaius-2.0.2.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/aliyun-java-vod-upload-1.4.11.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.0.2.RELEASE/spring-cloud-starter-netflix-archaius-2.0.2.RELEASE-javadoc.jar!/" />

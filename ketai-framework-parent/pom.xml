@@ -10,6 +10,7 @@
         <module>../ketai-commonservice-eureka</module>
         <module>../ketai-microservice-ucenter</module>
         <module>../ketai-microservice-statistics</module>
+        <module>../ketai-microservice-vod</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

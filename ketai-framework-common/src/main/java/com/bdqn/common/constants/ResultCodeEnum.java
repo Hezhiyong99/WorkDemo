@@ -12,6 +12,9 @@ public enum ResultCodeEnum {
     FILE_UPLOAD_ERROR(false, 21004, "文件上传错误"),
     EXCEL_DATA_IMPORT_ERROR(false, 21005, "Excel数据导入错误"),
     USERLOGIN_INVALID_ERROR(false, 21007, "登录信息过期，请重新登录"),
+    VIDEO_UPLOAD_ALIYUN_ERROR(false, 21009,"视频上传云服务器失败"),
+    VIDEO_UPLOAD_TOMCAT_ERROR(false, 21010,"视频上传缓存服务器失败"),
+    VIDEO_DELETE_ALIYUN_ERROR(false, 21011,"视频删除失败"),
     USERUNLOGIN_ERROR(false, 21008, "用户未登录，请重新登录");
     private Boolean success;
     private Integer code;

@@ -31,6 +31,7 @@ public class Swagger2Config {
                 .apiInfo(adminApiInfo())
                 .select()
                 .paths(Predicates.and(PathSelectors.regex("/admin/.*")))
+                .paths(Predicates.and(PathSelectors.regex("/.*")))
                 .build();
     }
 

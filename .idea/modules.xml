@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/ketai-microservice-oss/ketai-microservice-oss.iml" filepath="$PROJECT_DIR$/ketai-microservice-oss/ketai-microservice-oss.iml" />
       <module fileurl="file://$PROJECT_DIR$/ketai-microservice-statistics/ketai-microservice-statistics.iml" filepath="$PROJECT_DIR$/ketai-microservice-statistics/ketai-microservice-statistics.iml" />
       <module fileurl="file://$PROJECT_DIR$/ketai-microservice-ucenter/ketai-microservice-ucenter.iml" filepath="$PROJECT_DIR$/ketai-microservice-ucenter/ketai-microservice-ucenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ketai-microservice-vod/ketai-microservice-vod.iml" filepath="$PROJECT_DIR$/ketai-microservice-vod/ketai-microservice-vod.iml" />
     </modules>
   </component>
 </project>

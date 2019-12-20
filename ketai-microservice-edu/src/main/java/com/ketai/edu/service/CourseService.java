@@ -6,6 +6,10 @@ import com.ketai.edu.form.CourseInfoForm;
 import com.ketai.edu.form.CoursePublishVo;
 import com.ketai.edu.pojo.Course;
 import com.ketai.edu.query.CourseQuery;
+import com.ketai.edu.vo.CourseWebVo;
+
+import java.util.List;
+import java.util.Map;
 
 /**
  * <p>
@@ -40,4 +44,13 @@ public interface CourseService extends IService<Course> {
     CoursePublishVo getCoursePublishVoById(String id);
 
     void publishCourseById(String id);
+    //web id查询课程
+    List<Course> selectByTeacherId(String teacherId);
+
+
+    //web 分页查询课程信息
+    Map<String, Object> pageListWeb(Page<Course> pageParam);
+
+    //获取课程信息
+    CourseWebVo selectCourseWebVoById(String id);
 }

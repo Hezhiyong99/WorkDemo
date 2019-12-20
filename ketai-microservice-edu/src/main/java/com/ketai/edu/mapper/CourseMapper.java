@@ -3,6 +3,7 @@ package com.ketai.edu.mapper;
 import com.ketai.edu.form.CoursePublishVo;
 import com.ketai.edu.pojo.Course;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ketai.edu.vo.CourseWebVo;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
@@ -18,5 +19,9 @@ import org.springframework.stereotype.Repository;
 @Repository
 @Mapper
 public interface CourseMapper extends BaseMapper<Course> {
+    //根据ID发布课程
     CoursePublishVo selectCoursePublishVoById(String id);
+
+    //查询课程和讲师信息
+    CourseWebVo selectCourseWebVoById(String courseId);
 }
